@@ -25,37 +25,6 @@ Built with Next.js and scikit-learn, this platform bridges the gap between data 
 - **Data Processing**: pandas, scikit-learn
 - **Model Serialization**: pickle, JSON, XML
 
-## 📦 Installation
-
-1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/yourusername/ml-training-platform.git
-   cd ml-training-platform
-   \`\`\`
-
-2. **Install frontend dependencies:**
-   \`\`\`bash
-   cd app
-   npm install
-   \`\`\`
-
-3. **Install backend dependencies:**
-   \`\`\`bash
-   cd api
-   pip install -r requirements.txt
-   \`\`\`
-
-4. **Run the application:**
-   \`\`\`bash
-   # In the app directory
-   npm run dev
-
-   # In the api directory
-   python ml_backend.py
-   \`\`\`
-
-   Make sure your Python backend is running before starting the Next.js frontend.
-
 ## 💻 Usage
 
 1. Open your browser and navigate to `http://localhost:3000`.
@@ -135,7 +104,6 @@ A: This feature is not currently available but is on our roadmap for future deve
 
 ## 📂 Project Structure
 
-\`\`\`
 ml-training-platform/
 ├── app/                    # Next.js app directory
 │   ├── api/                # API routes for model training and prediction
@@ -154,7 +122,6 @@ ml-training-platform/
 ├── public/                 # Static assets
 └── api/                    # Python backend
     └── ml_backend.py       # Python ML processing script
-\`\`\`
 
 
 ## ⚡ Performance Tips
